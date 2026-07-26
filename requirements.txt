@@ -1,0 +1,13 @@
+# Core (retrieval)
+torch>=2.3
+transformers>=4.49
+pillow>=10.0
+numpy>=1.26
+tqdm>=4.66
+
+# Generation (local MLLM, no API key)
+accelerate>=0.30
+qwen-vl-utils>=0.0.8
+
+# Optional: 4-bit quantization of the generator if you want extra VRAM headroom
+bitsandbytes>=0.43

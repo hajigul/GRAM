@@ -1,0 +1,27 @@
+python scripts\make_gen_table.py --out outputs\generation_table_full.tex --datasets "G|MKG-RAG-Bench-G" "FB|FB15k-237-IMG" ^
+ --entry "G|S1|Random|outputs/gen_g_S1_random.json" --entry "G|S1|Text-only|outputs/gen_g_S1_text-only.json" ^
+ --entry "G|S1|Captioning|outputs/gen_g_S1_captioning.json" --entry "G|S1|Fusion|outputs/gen_g_s1_fusion.json" ^
+ --entry "G|S1|Reranking|outputs/gen_g_S1_reranking.json" --entry "G|S1|GRAM|outputs/gen_g_s1_gram_tuned.json" ^
+ --entry "G|S2|Random|outputs/gen_g_S2_random.json" --entry "G|S2|Captioning|outputs/gen_g_S2_captioning.json" ^
+ --entry "G|S2|All|outputs/gen_g_s2_fusion.json" ^
+ --entry "G|S3|Random|outputs/gen_g_S3_random.json" --entry "G|S3|Captioning|outputs/gen_g_S3_captioning.json" ^
+ --entry "G|S3|All|outputs/gen_g_s3_fusion.json" ^
+ --entry "G|S4|Random|outputs/gen_g_S4_random.json" --entry "G|S4|Text-only|outputs/gen_g_S4_text-only.json" ^
+ --entry "G|S4|Captioning|outputs/gen_g_S4_captioning.json" --entry "G|S4|Fusion|outputs/gen_g_s4_full_fusion.json" ^
+ --entry "G|S4|Reranking|outputs/gen_g_S4_reranking.json" --entry "G|S4|GRAM|outputs/gen_g_s4_gram_tuned.json" ^
+ --entry "G|S5|Random|outputs/gen_g_S5_random.json" --entry "G|S5|Text-only|outputs/gen_g_S5_text-only.json" ^
+ --entry "G|S5|Captioning|outputs/gen_g_S5_captioning.json" --entry "G|S5|Fusion|outputs/gen_g_s5_fusion.json" ^
+ --entry "G|S5|Reranking|outputs/gen_g_S5_reranking.json" --entry "G|S5|GRAM|outputs/gen_g_s5_gram_tuned.json" ^
+ --entry "FB|S1|Random|outputs/gen_fb_S1_random.json" --entry "FB|S1|Text-only|outputs/gen_fb_S1_text-only.json" ^
+ --entry "FB|S1|Captioning|outputs/gen_fb_S1_captioning.json" --entry "FB|S1|Fusion|outputs/gen_fb_s1_fusion.json" ^
+ --entry "FB|S1|Reranking|outputs/gen_fb_S1_reranking.json" --entry "FB|S1|GRAM|outputs/gen_fb_s1_gram.json" ^
+ --entry "FB|S2|Random|outputs/gen_fb_S2_random.json" --entry "FB|S2|Captioning|outputs/gen_fb_S2_captioning.json" ^
+ --entry "FB|S2|All|outputs/gen_fb_s2.json" ^
+ --entry "FB|S3|Random|outputs/gen_fb_S3_random.json" --entry "FB|S3|Captioning|outputs/gen_fb_S3_captioning.json" ^
+ --entry "FB|S3|All|outputs/gen_fb_s3.json" ^
+ --entry "FB|S4|Random|outputs/gen_fb_S4_random.json" --entry "FB|S4|Text-only|outputs/gen_fb_S4_text-only.json" ^
+ --entry "FB|S4|Captioning|outputs/gen_fb_S4_captioning.json" --entry "FB|S4|Fusion|outputs/gen_fb_s4_fusion.json" ^
+ --entry "FB|S4|Reranking|outputs/gen_fb_S4_reranking.json" --entry "FB|S4|GRAM|outputs/gen_fb_s4_gram.json" ^
+ --entry "FB|S5|Random|outputs/gen_fb_S5_random.json" --entry "FB|S5|Text-only|outputs/gen_fb_S5_text-only.json" ^
+ --entry "FB|S5|Captioning|outputs/gen_fb_S5_captioning.json" --entry "FB|S5|Fusion|outputs/gen_fb_s5_fusion.json" ^
+ --entry "FB|S5|Reranking|outputs/gen_fb_S5_reranking.json" --entry "FB|S5|GRAM|outputs/gen_fb_s5_gram.json"
